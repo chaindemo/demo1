@@ -16,7 +16,7 @@ import (
 	"log"
 	"strconv"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/dellwoo2/ulcontract/newulc/shared"
+	"github.com/chaindemo/demo1/newulc/shared"
 	"net/http" 
  //   	"encoding/binary"
   	"bytes"
@@ -68,7 +68,6 @@ type Policy struct{
 	Cont Contract
 }
 
-//var history map[string]History
 
 var policies map[string]string
 var lock map[string]string
